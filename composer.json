@@ -1,0 +1,24 @@
+{
+  "name": "fza/mysql-doctrine-jaro-winkler-function",
+  "description": "Provides the `JARO_WINKLER_SIMILARITY()` MySQL function for Doctrine2.",
+  "keywords": [
+	"mysql",
+	"doctrine",
+	"function",
+	"jaro winkler",
+	"similarity"
+  ],
+  "license": "MIT",
+  "authors": [
+	{
+	  "name": "Felix Zandanel",
+	  "email": "felix@zandanel.me"
+	}
+  ],
+  "require": {
+	"doctrine/orm": ">=2.2.0"
+  },
+  "autoload": {
+	"psr-0": {"Fza\\MysqlDoctrineJaroWinklerSimilarityFunction": "lib/"}
+  }
+}
